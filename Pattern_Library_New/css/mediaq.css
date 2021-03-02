@@ -1,0 +1,72 @@
+/* MediaQ */
+
+@media all and (min-width: 320px) {
+	.grid-0, .grid-1, .grid-2, .grid-3, .grid-4 {
+		max-width: 320px;
+	}
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media all and (min-width: 360px) {
+	.grid-0, .grid-1, .grid-2, .grid-3, .grid-4  {
+		max-width: 360px;
+	}
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media all and (min-width: 480px) {
+	.grid-0, .grid-1, .grid-2, .grid-3, .grid-4  {
+		max-width: 480px;
+	}
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media all and (min-width: 720px) {
+	.grid-0, .grid-1, .grid-2, .grid-3, .grid-4 {
+		max-width: 720px;
+	}
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media all and (min-width: 1024px) {
+	.grid-0, .grid-1, .grid-2, .grid-3, .grid-4 {
+		max-width: 1024px;
+	}
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (min-width: 1280px) {
+	.grid-0, .grid-1, .grid-2, .grid-3, .grid-4 {
+		max-width: 1280px;
+	}
+}
+
+@media all and (min-width: 1440px) {
+	.grid-0, .grid-1, .grid-2, .grid-3, .grid-4 {
+		max-width: 1440px;
+	}
+}
+
+@media all and (min-width: 1920px) {
+	.grid-0, .grid-1, .grid-2, .grid-3, .grid-4 {
+		max-width: 1920px;
+	}
+}
+
+/* Main */
+
+.main-container {
+  height: 100%;
+  width: 100vh;
+  overflow-y: hidden;
+}

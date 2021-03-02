@@ -1,0 +1,51 @@
+/* Grid Layout */
+
+.grid-1 {
+  display: grid;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 0px;
+}
+
+.grid-2 {
+  display: grid;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+}
+
+.grid-3 {
+  display: grid;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 0px;
+}
+
+.grid-4 {
+  display: grid;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 0px;
+}
+
+/* Padding */
+
+.p-1 {
+  padding: 3em;
+}
+
+.p-2 {
+  padding: 1em;
+}

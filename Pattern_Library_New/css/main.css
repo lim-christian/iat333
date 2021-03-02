@@ -1,0 +1,54 @@
+/* Referenced: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+/* Referenced: https://css-tricks.com/snippets/css/complete-guide-grid/ */
+
+/* * { outline: 1px solid red; } */
+
+html {
+  font-family: Trebuchet, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body p {
+  max-width: 30rem;
+  min-width: 10rem;
+}
+
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+nav {
+  display: inline;
+  text-align: center;
+  grid-template-columns: auto;
+  grid-auto-rows: auto;
+}
+
+ul li {
+  display: inline;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navclass {
+  color: white;
+  background-color: #FC6E20;
+  text-decoration: none;
+  overflow: hidden;
+  padding: 1em 5em;
+}
+
+a:hover {
+  background-color: #fc5e07;
+}

@@ -3,3 +3,26 @@ body{
 	font-family:Circular std bold, Helvetica, Arial, sans-serif;
 	background-color:#f4f4f4;
 }
+
+h1{
+	font-size:3rem;
+}
+
+h2{
+	font-size:2rem;
+	font-weight:bold;
+	color:rgb(252,110,32);
+	margin-top: 1.5em ;
+}
+
+h6{
+    font-size:1rem;
+	font-weight:bold;
+	color: rgb(252,110,32);
+}
+
+.grid-footer{
+	background-colour: #f4f4f4;
+	color: white; 
+}
+

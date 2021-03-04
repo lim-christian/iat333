@@ -1,18 +1,6 @@
 /* this is where css goes */
-
-
-grid-footer{
+.grid-footer{
 	background:rgb(150,150,150);
 }
 
-h1{
-	font-size:3rem;
-}
 
-h2{
-	font-size:2rem;
-	font-weight:bold;
-	color:rgb(252,110,32);
-	margin-top: 1.5em ;
-
-}

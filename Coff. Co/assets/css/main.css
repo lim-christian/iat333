@@ -6,12 +6,16 @@
 	width: 100%;
 }
 
+.mainlogo{
+	width: 30%;
+	height: auto;
+}
 
 nav ul{
 	display: inline-block;
 	list-style: none;
 	font-size: 1.25rem;
-	vertical-align: center;
+	vertical-align: top;
 	width: 50rem;
 	margin: 0 auto;
 	padding: 0;
@@ -26,6 +30,7 @@ nav li a {
 	padding: 0.5rem 2rem;
 	text-decoration: none;
 	color: #ffffff;
+	margin-top: 0.5em;
 	 }
 
  

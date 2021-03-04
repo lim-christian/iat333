@@ -1,6 +1,39 @@
 /* this is where css goes */
+.grid-navbar{
+	display: inline-block;
+	background-color: #FC6E20;
+	padding: 2em 2em; 
+	width: 100%;
+}
+
+
+nav ul{
+	display: inline-block;
+	list-style: none;
+	font-size: 1.25rem;
+	vertical-align: center;
+	width: 50rem;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav li{
+	float: left;
+}
+
+nav li a {
+	display: inline-block;
+	padding: 0.5rem 2rem;
+	text-decoration: none;
+	color: #ffffff;
+	 }
+
+ 
+
 .grid-footer{
 	background:rgb(150,150,150);
 }
+
+
 
 

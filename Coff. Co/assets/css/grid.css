@@ -1,1 +1,48 @@
 /* this is where grids and media queries go */
+/* Use this file to create your CSS Grid Layout Content*/
+
+*{
+	box-sizing:border-box; 
+
+}
+.grid-container {
+ 	display:grid;
+ 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	/*grid-template-columns: repeat (8, 1fr);*/
+	grid-template-rows: 10rem 5fr  10rem;
+	min-height:100vh;
+}
+
+header {
+	grid-column-start: 1;
+	grid-column-end: span 8;
+	/*9 because an extra number here than your actual number of columns*/
+}
+
+.main {
+	grid-column-start: 1;
+	grid-column-end:span 6;
+}
+
+footer{
+	grid-column-start: 1;
+	grid-column-end: 9;
+	}
+
+@media only screen and (max-width: 50rem) {
+
+	.grid-container{
+ 	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 15rem 2fr 1fr 10rem;
+	min-height:100vh;
+	}
+
+	.main{
+		
+		grid-column: 1/ span 7;
+		margin: 1rem;
+	}
+
+}
+/* the base of this code was derived from Week 5 Lecture*/

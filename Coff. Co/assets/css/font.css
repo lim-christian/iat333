@@ -1,1 +1,5 @@
 /* this is where our fonts go */
+body{
+	font-family:Circular std bold, Helvetica, Arial, sans-serif;
+	background-color:#f4f4f4;
+}

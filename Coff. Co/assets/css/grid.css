@@ -1,60 +1,272 @@
 /* this is where grids and media queries go */
-
-
-*{
-	box-sizing:border-box;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+	text-decoration: none;
 }
 
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////// Main Template ///////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Whole Page */
 .grid-main {
-	display: grid;
-	width: 100%;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
+  display: grid;
+  width: 100%;
+  height: 100vh;
+	grid-gap: 30px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
+/* Navigation Bar */
 .grid-navbar {
+  display: grid;
+  width: 100%;
+  grid-column-gap: 50px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+/* Contents */
+.grid-contents {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+/* Hero */
+.grid-row1 {
+  display: grid;
+  width: 100%;
+  height: 15rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.hero-column-one {
+	display: grid;
+  width: 100%;
+  grid-template-columns: 1fr
+  grid-template-rows: auto;
+}
+
+.hero-column-two {
+	display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.hero-column-three {
+	display: grid;
+  width: 100%;
+  grid-template-columns: 1fr
+  grid-template-rows: auto;
+}
+
+/* Headine One */
+.grid-row2 {
+}
+
+/* Row One */
+.grid-row3 {
+	display: grid;
+  width: 100%;
+  height: 15rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+/* Heading Two */
+.grid-row4 {
+}
+
+/* Row Two */
+.grid-row5 {
+  display: grid;
+  width: 100%;
+  height: 15rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+/* Heading Three */
+.grid-row6 {
+}
+
+/* Footer */
+.grid-footer {
+  display: grid;
+  width: 100%;
+	height: 11rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.footer-column-one {
 	display: grid;
 	width: 100%;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr
 	grid-template-rows: auto;
 }
 
+.footer-column-two {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr
+	grid-template-rows: auto;
+}
 
+.footer-column-three {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr
+	grid-template-rows: auto;
+}
 
-.grid-contents {
+.footer-column-four {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr
+	grid-template-rows: auto;
+}
+
+.footer-column-five {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr
+	grid-template-rows: auto;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////// Selection Page Template //////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Heading One */
+.grid-coffee-row1 {
+
+}
+
+/* Row One */
+.grid-coffee-row2 {
+	display: grid;
+	width: 100%;
+	height: 15rem;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+/* Heading Two */
+.grid-coffee-row3 {
+
+}
+
+/* Row Two */
+.grid-coffee-row4 {
+	display: grid;
+	width: 100%;
+	height: 15rem;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+/* Heading Three */
+.grid-coffee-row5 {
+
+}
+
+/* Row Three */
+.grid-coffee-row6 {
+	display: grid;
+	width: 100%;
+	height: 15rem;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////// Product Page Template ///////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.grid-contents-productpage {
+	display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.product-column-one {
+	display: grid;
+	width: 100%;
+	grid-template-columns: auto;
+	grid-template-rows: 1fr 1fr;
+}
+
+/* Stuff for this column */
+.product-row-one {
+	display: grid;
+	width: 100%;
+	height: 15rem;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+}
+
+.product-row-two {
+	display: grid;
+	width: 100%;
+	height: 15rem;
+	grid-template-columns: auto;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.product-row-three {
+	display: grid;
+	width: 100%;
+	height: 15rem;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.product-column-two {
+	display: grid;
+	width: 100%;
+	grid-template-columns: auto;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.product-column-three {
 	display: grid;
 	width: 100%;
 	grid-template-columns: auto;
 	grid-template-rows: auto;
-
 }
 
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////// Product Page Template ///////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-.grid-row1{
+.grid-contents-contactuspage {
+	display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.contactus-column-one {
 	display: grid;
 	width: 100%;
-	height: 20rem;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto;
+	height: 15rem;
+	grid-template-columns: auto;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.grid-row5{
+.contactus-column-two {
 	display: grid;
 	width: 100%;
-	height: 5rem;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto;
-}
-
-.grid-footer {
-	display: grid;
-	width: 100%;
-	height: 10rem;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto;
-}
-
-.footermisc {
-	float: right;
-	grid-column: 3/4;
+	height: 15rem;
+	grid-template-columns: auto;
+	grid-template-rows: 1fr 1fr;
 }

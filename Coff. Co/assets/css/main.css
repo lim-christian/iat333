@@ -2,43 +2,67 @@
 .grid-navbar{
 	display: inline-block;
 	background-color: #FC6E20;
-	padding: 2em 2em; 
+	padding: 0;
 	width: 100%;
 }
 
 .mainlogo{
-	width: 30%;
-	height: auto;
-}
-
-nav ul{
-	display: inline-block;
-	list-style: none;
-	font-size: 1.25rem;
-	vertical-align: top;
-	width: 50rem;
-	margin: 0 auto;
-	padding: 0;
-}
-
-nav li{
+	width: 20%;
 	float: left;
+	padding: 1em 1em;
 }
 
-nav li a {
-	display: inline-block;
-	padding: 0.5rem 2rem;
-	text-decoration: none;
-	color: #ffffff;
-	margin-top: 0.5em;
-	 }
+nav {
+	float: right;
+}
 
- 
+nav ul {
+	list-style: none;
+	margin-top: 0.2em;
+	padding: 0;
+
+}
+
+nav li {
+		display: inline-block;
+		margin-left: 2.5em;
+		margin-top: 2em;
+		padding: 0.5em;
+}
+
+nav a {
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+.grid-navicon{
+padding: 0;
+width: auto;
+}
+
+.profilelogo{
+	width: 10%;
+	float: right;
+	padding: 1em 1em;
+	margin-top: 1em;
+	margin-right: 5em;
+}
+
+.cartlogo {
+	width: 10%;
+  float: right;
+	padding: 1em 1em;
+	margin-top: 1em;
+	margin-right: 2em;
+}
+
+
 
 .grid-footer{
 	background:rgb(150,150,150);
 }
-
-
-
-

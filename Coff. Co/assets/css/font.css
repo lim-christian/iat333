@@ -4,6 +4,10 @@ body{
 	background-color:#f4f4f4;
 }
 
+nav a {
+	font-size: 1rem;
+}
+
 h1{
 	font-size:3rem;
 }
@@ -25,8 +29,5 @@ h6{
 
 .grid-footer{
 	background-color: #f4f4f4;
-	color: white; 
+	color: white;
 }
-
-
-

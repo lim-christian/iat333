@@ -64,5 +64,22 @@ width: auto;
 
 
 .grid-footer{
-	background:rgb(150,150,150);
+	display: inline-block;
+	background-color: #4D3F33;
+	padding: 0;
+	width: 100%;
+}
+
+.footername {
+	color: #ffffff;
+	margin: 0;
+	padding: 0.5em;
+}
+
+.footermisc {
+	color: #ffffff;
+	text-decoration: none;
+	margin-top: 1.5em;
+	padding: 1em;
+
 }

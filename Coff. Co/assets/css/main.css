@@ -38,6 +38,11 @@ nav a:hover {
 	color: #000;
 }
 
+a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+}
+
 .grid-navicon{
 padding: 0;
 width: auto;

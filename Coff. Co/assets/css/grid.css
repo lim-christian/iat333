@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+img {
+  height: auto;
+}
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////// Main Template ///////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -111,27 +115,52 @@
 	float: right;
 	grid-column: 3/4;
 }
+
+footer {
+  padding-top: 15rem;
+}
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*////////////////////////////////////// Selection Page Template //////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+.p1 {
+  padding-left: 10rem;
+}
+
+/* Page */
+.grid-contents-product {
+  display: grid;
+	width: 100%;
+  padding-top: 10rem;
+  padding-left: 10rem;
+	grid-template-columns: auto;
+	grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr;
+}
+
 /* Heading One */
 .grid-coffee-row1 {
-
+  display: grid;
+	width: 100%;
+  padding-left: 10rem;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
 }
 
 /* Row One */
 .grid-coffee-row2 {
 	display: grid;
 	width: 100%;
-	height: 15rem;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: auto;
 }
 
 /* Heading Two */
 .grid-coffee-row3 {
-
+  display: grid;
+  width: 100%;
+  padding-left: 10rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 /* Row Two */
@@ -145,7 +174,11 @@
 
 /* Heading Three */
 .grid-coffee-row5 {
-
+  display: grid;
+  width: 100%;
+  padding-left: 10rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 /* Row Three */
@@ -155,6 +188,37 @@
 	height: 15rem;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: auto;
+}
+
+.coffee-selection{
+	display: grid;
+	width: 100%;
+  padding-left: 10rem;
+	grid-template-columns: auto;
+	grid-template-rows: 80% 20%;
+}
+
+.coffee-selection-image {
+  display: grid;
+	width: 100%;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+}
+
+.coffee-selection-text {
+  display: grid;
+	width: 100%;
+  padding-top: 0.5rem;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+}
+
+.coffee-body {
+  display: grid;
+	width: 100%;
+  padding-right: 5rem;
+	grid-template-columns: auto;
+	grid-template-rows: 20% 80%;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/

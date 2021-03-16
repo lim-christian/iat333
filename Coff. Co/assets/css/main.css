@@ -78,7 +78,7 @@ width: auto;
 
 
 .hctp1 {
-	padding-top: 20em;
+	padding-top: 15em;
 	margin-left: 4em;
 	margin-top: 10em;
 }
@@ -87,6 +87,15 @@ width: auto;
 	margin-top: -12em;
 	margin-left: 4em;
 	width: 40%
+}
+
+
+.grid-row2 p{
+	margin-left: 6em;
+}
+
+.grid-row4 p{
+	margin-left: 6em;
 }
 
 .grid-footer{

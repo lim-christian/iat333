@@ -4,6 +4,9 @@ body{
 	background-color:#f4f4f4;
 }
 
+.orange_text {
+	color: #FC6E20;
+}
 nav a {
 	font-size: 1rem;
 }
@@ -29,8 +32,18 @@ h6{
 	font-weight:bold;
 }
 
-.hctp1{
+.hctp1 {
 	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+.grid-row2 p {
+	font-size: 2rem;
+}
+
+.grid-row4 p {
+	font-size: 2rem;
 }
 
 .footermisc {

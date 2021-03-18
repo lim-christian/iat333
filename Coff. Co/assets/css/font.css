@@ -27,6 +27,7 @@ h6{
 	color: rgb(252,110,32);
 }
 
+
 .hero-column-one h1 {
 	font-size:3rem;
 	font-weight:bold;
@@ -38,12 +39,8 @@ h6{
 	color: #FC6E20;
 }
 
-.grid-row2 p {
-	font-size: 2rem;
-}
-
-.grid-row4 p {
-	font-size: 2rem;
+.grid-row2 p, .grid-row4 p, .grid-row6 p {
+font-size: 2rem;
 }
 
 .footermisc {

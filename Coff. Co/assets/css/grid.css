@@ -256,19 +256,20 @@ footer {
 
 /* Stuff for this column */
 .product-row-one {
-	display: grid;
+  display: grid;
 	width: 100%;
-	height: 15rem;
+  padding-left: 10rem;
 	grid-template-columns: auto;
 	grid-template-rows: auto;
+
 }
 
 .product-row-two {
 	display: grid;
 	width: 100%;
-	height: 15rem;
+	padding-left: 10rem;
 	grid-template-columns: auto;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
 }
 
 .product-row-three {

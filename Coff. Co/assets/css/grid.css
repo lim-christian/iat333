@@ -234,8 +234,12 @@ footer {
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .grid-contents-productpage {
+
+
 	display: grid;
   width: 100%;
+    padding-top: 10rem;
+  padding-left: 10rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
@@ -251,14 +255,14 @@ footer {
 	display: grid;
 	width: 100%;
 	grid-template-columns: auto;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: auto ;
 }
 
 /* Stuff for this column */
 .product-row-one {
   display: grid;
 	width: 100%;
-  padding-left: 10rem;
+  
 	grid-template-columns: auto;
 	grid-template-rows: auto;
 
@@ -267,24 +271,25 @@ footer {
 .product-row-two {
 	display: grid;
 	width: 100%;
-	padding-left: 10rem;
 	grid-template-columns: auto;
 	grid-template-rows: auto;
 }
 
 .product-row-three {
-	display: grid;
-	width: 100%;
-	height: 15rem;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+  display: grid;
+  width: 100%;
+  padding-left: 10rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+
 }
 
 .product-column-two {
 	display: grid;
 	width: 100%;
+
 	grid-template-columns: auto;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: auto;
 }
 
 .product-column-three {
@@ -307,12 +312,14 @@ footer {
   padding-top: 0.5rem;
 	grid-template-columns: auto;
 	grid-template-rows: auto;
+	color: #FC6E20;
 }
 
 .product-body {
   display: grid;
 	width: 100%;
-  padding-right: 5rem;
+	  padding-right: 10rem;
+
 	grid-template-columns: auto;
 	grid-template-rows: 20% 80%;
 }

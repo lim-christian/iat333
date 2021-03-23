@@ -43,6 +43,12 @@ a, a:hover, a:focus, a:active {
      color: inherit;
 }
 
+a.ex1:hover, a.ex1:active{
+    color: #FC6E20;
+    text-decoration: underline;
+}
+
+
 .grid-navicon{
 padding: 0;
 width: auto;
@@ -368,4 +374,38 @@ ul li {
 }
 .animated-arrow > .main > .the-arrow {
   position: relative;
+}
+
+/* accordian */
+
+.accordion label {
+  color: #fff;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 10px;
+  background: #b0100c;
+  
+}
+ 
+.accordion label:hover,
+.accordion label:focus {
+  background: #252525;
+}
+ 
+.accordion .handle label:before {
+  font-family: FontAwesome;
+  content: "\f107";
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1em;
+  line-height: 1.556em;
+  vertical-align: middle;
+  transition: 0.4s;
+  
+}
+ 
+.accordion > input[name="collapse"]:checked ~ .handle label:before {
+    transform: rotate(180deg);
+    transform-origin: center;
+    transition: 0.4s;
 }

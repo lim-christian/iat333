@@ -1,6 +1,6 @@
 /* this is where our fonts go */
 body{
-	font-family:Circular std bold, Helvetica, Arial, sans-serif;
+	font-family:Circular std bold, "Lexend", Helvetica, Arial, sans-serif;
 	background-color:#f4f4f4;
 }
 
@@ -49,4 +49,13 @@ font-size: 2rem;
 
 .footername {
 	font-size: 1.5rem;
+}
+
+/* About Us Page */
+.about-column-one h1 {
+	font-size: 3rem;
+}
+
+.about-column-one h2 {
+	font-size: 2rem;
 }

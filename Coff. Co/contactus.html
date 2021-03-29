@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="assets/css/font.css">
   <link rel="stylesheet" href="assets/css/grid.css">
   <link rel="stylesheet" href="assets/css/normalize.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend">
+
 </head>
 
 <body>
@@ -24,17 +27,18 @@
     <div class="grid-navbar">
 
 
-    <a href="index.html"><img class="mainlogo" src="assets/img/MainLogoS.png"></a>
-
+    <a href="index.html"><img class="mainlogo" src="assets/img/MainLogoS.png" alt="brandlogo"></a>
 
     <nav>
 
        <ul>
+         <li><a href="index.html">Home</a></li>
          <li><a href="aboutus.html">About Us</a></li>
          <li><a href="coffee.html">Coffee</a></li>
          <li><a href="merch.html">Merch</a></li>
-         <li><a href="productpage.html">Product Page</a></li>
+         <!-- <li><a href="productpage.html">Product Page</a></li> -->
          <li><a href="contactus.html">Contact</a></li>
+
       </ul>
     </nav>
 
@@ -47,38 +51,61 @@
 
     <!-- Contents -->
     <section class="grid-contents-contactuspage">
+
       <div class="contactus-column-one">
-        <h1>we love to help</h1>
-        <p>Your name:</p>
-        <p>Your email address:</p>
-        <p>Send</p>
+        <h2>we love to <span class="orange_text"><b>help</b></span></h2>
+
+        <div class="formcontainer">
+        <form>
+
+          <p>
+          <label>Full Name</label>
+          <input name="Your Name" placeholder="John Doe" type="text"></p>
+
+          <p>
+          <label>Email Address</label>
+          <input name="Email Address" placeholder="johndoe@gmail.com"type="text"></p>
+
+          <p>
+          <label>Your Message</label>
+          <input name="Your Message" placeholder="Your message" type="text"></p>
+
+          <div class="button-wrapper">
+            <a class="contactusbutton"><b>Send</b></a>
+          </div>
+
+        </form>
+
+      </div>
+
+
+
+
+
       </div>
       <div class="contactus-column-two">
-        <p>image of map</p>
-        <p>contact information goes here</p>
+          <img class="googlemapblock" src="assets/img/GoogleMap.png" alt="map of google">
+        <p><span class="orange_text"><b>Address:</b></span> 12345 123 Ave Coffee Road, Vancouver, B.C A4T 2U9</p>
+          <p><span class="orange_text"><b>Email:</b></span>contact-coffee@me.com</p>
+              <p><span class="orange_text"><b>Cell:</b></span>604-444-5564</p>
       </div>
     </section>
 
     <!-- Footer -->
     <footer>
-      <section class="grid-footer">
-        <div class="footer-column-one">
-          <h1>coff co</h1>
-          <h2>coffee roastery</h2>
-        </div>
-        <div class="footer-column-two">
-        </div>
-        <div class="footer-column-three">
-          <p>Pattery Library</p>
-        </div>
-        <div class="footer-column-four">
-          <p>Terms and Condition</p>
-        </div>
-        <div class="footer-column-five">
-          <p>2021 coff co.</p>
-        </div>
-      </section>
-    </footer>
+    <div class="grid-footer">
+      <div class="footername">
+      <p>Coff co. <br>coffee roasters</p>
+    </div>
+
+    <!-- <div class="footermisc">
+      <p>Terms and Conditions</p>
+        <p>Privacy Policy</p>
+          <p>®2021 Coff Co Inc.</p>
+        </div> -->
+
+    </div>
+  </footer>
 
   </section>
 </body>

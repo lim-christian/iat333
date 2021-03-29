@@ -124,7 +124,7 @@ width: auto;
   color: white;
 }
 
-.cta-button1:hover {
+.cta-button1: hover {
   background-color: #777;
 	/* color: white; */
 }
@@ -177,7 +177,7 @@ width: auto;
   color: white;
 }
 
-.cta-button2:hover {
+.cta-button2: hover {
   background-color: #777;
 	/* color: white; */
 }
@@ -231,8 +231,67 @@ width: auto;
 	width: 80%;
 }
 
+/* Contact Us Section */
+.contactus-column-one h2 {
+		padding: 1em;
+		margin-left: 4.5em;
+		margin-top: 1em;
+}
+
+.contactus-column-one p {
+	margin-left: 7em;
+	padding: 1em;
+}
 
 
+
+.contactusbutton {
+	border: none;
+	border-radius: 0.2em;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1em 1em;
+	width: 10em;
+	margin-left: 27em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-top: 5em;
+	background-color: #FC6E20;
+	color: white;
+}
+
+.contactusbutton: hover {
+  background-color: #777;
+}
+
+.formcontainer label {
+	margin-left: 8em;
+}
+
+
+.formcontainer {
+  width: 50%;
+  clear: both;
+}
+
+.formcontainer input {
+	padding: 0.5em;
+  width: 100%;
+	margin-left: 8em;
+  clear: both;
+}
+
+.googlemapblock {
+	padding-top: 5em;
+}
+
+
+.contactus-column-two p {
+	margin: 1em 0em;
+ padding: 0.5em;
+}
+
+/* ------------------------------------------------------------------------------------- */
 
 /* this is for the arrow */
 .arrow {
@@ -384,14 +443,14 @@ ul li {
   font-weight: normal;
   padding: 10px;
   background: #b0100c;
-  
+
 }
- 
+
 .accordion label:hover,
 .accordion label:focus {
   background: #252525;
 }
- 
+
 .accordion .handle label:before {
   font-family: FontAwesome;
   content: "\f107";
@@ -401,9 +460,9 @@ ul li {
   line-height: 1.556em;
   vertical-align: middle;
   transition: 0.4s;
-  
+
 }
- 
+
 .accordion > input[name="collapse"]:checked ~ .handle label:before {
     transform: rotate(180deg);
     transform-origin: center;

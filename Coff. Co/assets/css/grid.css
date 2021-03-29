@@ -262,7 +262,7 @@ footer {
 .product-row-one {
   display: grid;
 	width: 100%;
-  
+
 	grid-template-columns: auto;
 	grid-template-rows: auto;
 
@@ -338,15 +338,13 @@ footer {
 .contactus-column-one {
 	display: grid;
 	width: 100%;
-	height: 15rem;
 	grid-template-columns: auto;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
 }
 
 .contactus-column-two {
 	display: grid;
 	width: 100%;
-	height: 15rem;
 	grid-template-columns: auto;
-	grid-template-rows: 1fr 1fr;
+
 }

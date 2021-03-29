@@ -7,9 +7,10 @@
 }
 
 .mainlogo{
-	width: 20%;
+	width: 15%;
 	float: left;
-	padding: 1em 1em;
+	margin: 1em;
+
 }
 
 nav {
@@ -18,14 +19,12 @@ nav {
 
 nav ul {
 	list-style: none;
-	margin-top: 2em;
+	margin-top: 2.5em;
 }
 
 nav li {
 		display: inline-block;
-		margin-left: 1em;
-		margin-top: 2.5em;
-		padding: 0.3em;
+		padding: 1em;
 
 }
 
@@ -43,6 +42,12 @@ a, a:hover, a:focus, a:active {
      text-decoration: none;
      color: inherit;
 }
+
+a.ex1:hover, a.ex1:active{
+    color: #FC6E20;
+    text-decoration: underline;
+}
+
 
 .grid-navicon{
 padding: 0;
@@ -139,18 +144,14 @@ width: auto;
 	margin-left: 10em;
 }
 
-.gr3p{
+.gr3p, .gr5p{
 	margin-left: 5em;
 	width: 50%;
+	margin-top: 1em;
 }
 
 .coffeeimg1, .coffeeimg2 {
 	width: 80%;
-}
-
-.gr5p{
-	margin-left: 5em;
-	width: 50%;
 }
 
 .merchimg1, .merchimg2 {
@@ -206,6 +207,32 @@ width: auto;
 }
 
 
+/* About Us Section */
+.about-column-one h1 {
+	margin-left: 4em;
+	margin-top: 8em;
+}
+
+.about-column-one h2 {
+	margin-left: 6em;
+	color: black;
+}
+
+.aboutusimg1, .aboutusimg2 {
+	width: 80%;
+  margin-top: 3em;
+}
+
+.aboutusimg3, .aboutusimg4 {
+	width: 80%;
+}
+
+.aboutusimg5, .aboutusimg6 {
+	width: 80%;
+}
+
+
+
 
 /* this is for the arrow */
 .arrow {
@@ -213,8 +240,6 @@ width: auto;
   align-items: center;
   justify-content: center;
   height: 100%;
-
-
 }
 
 ul li {
@@ -349,4 +374,38 @@ ul li {
 }
 .animated-arrow > .main > .the-arrow {
   position: relative;
+}
+
+/* accordian */
+
+.accordion label {
+  color: #fff;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 10px;
+  background: #b0100c;
+  
+}
+ 
+.accordion label:hover,
+.accordion label:focus {
+  background: #252525;
+}
+ 
+.accordion .handle label:before {
+  font-family: FontAwesome;
+  content: "\f107";
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1em;
+  line-height: 1.556em;
+  vertical-align: middle;
+  transition: 0.4s;
+  
+}
+ 
+.accordion > input[name="collapse"]:checked ~ .handle label:before {
+    transform: rotate(180deg);
+    transform-origin: center;
+    transition: 0.4s;
 }

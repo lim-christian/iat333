@@ -1,68 +1,80 @@
-/* this is where our fonts go */
-body{
-	font-family:Circular std bold, "Lexend", Helvetica, Arial, sans-serif;
-	background-color:#f4f4f4;
+@font-face {
+	font-family: 'Calibre';
+	src: url('../fonts/Calibre.TTF');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }
 
-.orange_text {
-	color: #FC6E20;
-}
-nav a {
-	font-size: 1rem;
-}
-
-h1{
-	font-size:3rem;
+@font-face {
+	font-family: 'Calibre Black';
+	src: url('../fonts/CALIBRE-BLACK.TTF');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }
 
-h2{
-	font-size:2rem;
-	font-weight:bold;
-	color:rgb(252,110,32);
+@font-face {
+	font-family: 'Calibre LightItalic';
+	src: url('../fonts/CALIBRE-LIGHTITALIC.TTF');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }
 
-h6{
-  font-size:1rem;
-	font-weight:bold;
-	color: rgb(252,110,32);
+@font-face {
+	font-family: 'Calibre Thin';
+	src: url('../fonts/CALIBRE-THIN.TTF');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }
 
-
-.hero-column-one h1 {
-	font-size:3rem;
-	font-weight:bold;
+@font-face {
+	font-family: 'Calibre Light';
+	src: url('../fonts/CALIBRE-LIGHT.TTF');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }
 
-.hctp1 {
-	font-weight: bold;
-	text-decoration: none;
-	color: #FC6E20;
+@font-face {
+	font-family: 'Calibre Regular';
+	src: url('../fonts/CALIBRE-REGULAR.TTF');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }
 
-.grid-row2 p, .grid-row4 p, .grid-row6 p {
-font-size: 2rem;
+@font-face {
+	font-family: 'Calibre MediumItalic';
+	src: url('../fonts/CALIBRE-MEDIUMITALIC.TTF');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }
 
-.footermisc {
-	font-size: 0.8rem;
+@font-face {
+	font-family: 'Circular STD Book';
+	src: url('../fonts/CircularSTD-Book.OTF');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }
 
-.footername {
-	font-size: 1.5rem;
-}
-
-/* About Us Page */
-.about-column-one h1 {
-	font-size: 3rem;
-}
-
-.about-column-one h2 {
-	font-size: 2rem;
-}
-
-
-/* Contact Us Page */
-.contactus-column-one h2 {
-	font-size: 3rem;
-	color: black;
+@font-face {
+	font-family: 'Circular STD Bold';
+	src: url('../fonts/CircularSTD-Bold.OTF');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }

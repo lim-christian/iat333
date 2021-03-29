@@ -12,23 +12,21 @@ img {
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////// Main Template ///////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
 /* Whole Page */
 .grid-main {
   display: grid;
+  width: 100%;
   grid-template-columns: auto;
   grid-template-rows: auto;
 }
 
 /* Navigation Bar */
-/* this is where grids and media queries go */
 .grid-navbar {
-	display: grid;
-	width: 100%;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
-
 
 /* Contents */
 .grid-contents {
@@ -44,38 +42,36 @@ img {
   width: 100%;
   height: 60rem;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: 1fr;
 }
 
 .hero-column-one {
-	display: grid;
+  display: grid;
   width: 100%;
-  grid-template-columns: 1fr
-  grid-template-rows: auto;
+  grid-template-columns: 1fr grid-template-rows: auto;
 }
 
 .hero-column-two {
-	display: grid;
+  display: grid;
   width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
 }
 
 .hero-column-three {
-	display: grid;
+  display: grid;
   width: 100%;
-  grid-template-columns: 1fr
-  grid-template-rows: auto;
+  grid-template-columns: 1fr grid-template-rows: auto;
 }
 
 /* Headine One */
 .grid-row2 {
-    padding: 5rem;
+  padding: 5rem;
 }
 
 /* Coffee Row */
 .grid-row3 {
-	display: grid;
+  display: grid;
   width: 100%;
   height: 25rem;
   grid-template-columns: 1fr 1fr 1fr;
@@ -85,7 +81,6 @@ img {
 /* Heading Two */
 .grid-row4 {
   padding: 5rem;
-
 }
 
 /* Merch Row */
@@ -104,25 +99,25 @@ img {
 
 /* Footer */
 .grid-footer {
-	display: grid;
-	width: 100%;
-	height: 10rem;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto;
+  display: grid;
+  width: 100%;
+  height: 10rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 .footermisc {
-	float: right;
-	grid-column: 3/4;
+  float: right;
+  grid-column: 3/4;
 }
 
 footer {
   /* padding-top: 15rem; */
 }
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*////////////////////////////////////// Selection Page Template //////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
 .p1 {
   padding-left: 10rem;
 }
@@ -138,28 +133,28 @@ footer {
 /* Page */
 .grid-contents-product {
   display: grid;
-	width: 100%;
+  width: 100%;
   padding-top: 10rem;
   padding-left: 10rem;
-	grid-template-columns: auto;
-	grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr;
+  grid-template-columns: auto;
+  grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr;
 }
 
 /* Heading One */
 .grid-coffee-row1 {
   display: grid;
-	width: 100%;
+  width: 100%;
   padding-left: 10rem;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 /* Row One */
 .grid-coffee-row2 {
-	display: grid;
-	width: 100%;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: auto;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 /* Heading Two */
@@ -173,11 +168,11 @@ footer {
 
 /* Row Two */
 .grid-coffee-row4 {
-	display: grid;
-	width: 100%;
-	height: 15rem;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: auto;
+  display: grid;
+  width: 100%;
+  height: 15rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 /* Heading Three */
@@ -191,160 +186,305 @@ footer {
 
 /* Row Three */
 .grid-coffee-row6 {
-	display: grid;
-	width: 100%;
-	height: 15rem;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: auto;
+  display: grid;
+  width: 100%;
+  height: 15rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 
-.coffee-selection{
-	display: grid;
-	width: 100%;
+.coffee-selection {
+  display: grid;
+  width: 100%;
   padding-left: 10rem;
-	grid-template-columns: auto;
-	grid-template-rows: 80% 20%;
+  grid-template-columns: auto;
+  grid-template-rows: 80% 20%;
 }
 
 .coffee-selection-image {
   display: grid;
-	width: 100%;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 .coffee-selection-text {
   display: grid;
-	width: 100%;
+  width: 100%;
   padding-top: 0.5rem;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 .coffee-body {
   display: grid;
-	width: 100%;
+  width: 100%;
   padding-right: 5rem;
-	grid-template-columns: auto;
-	grid-template-rows: 20% 80%;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 80%;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////// Product Page Template ///////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
 .grid-contents-productpage {
-
-
-	display: grid;
+  display: grid;
   width: 100%;
-    padding-top: 10rem;
-  padding-left: 10rem;
+  margin-top: 10rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
 
 .grid-contents-merchpage {
-	display: grid;
+  display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
 
 .product-column-one {
-	display: grid;
-	width: 100%;
-	grid-template-columns: auto;
-	grid-template-rows: auto ;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 /* Stuff for this column */
-.product-row-one {
-  display: grid;
-	width: 100%;
 
-	grid-template-columns: auto;
-	grid-template-rows: auto;
-
-}
-
-.product-row-two {
-	display: grid;
-	width: 100%;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
-}
-
-.product-row-three {
+.product-column-one {
   display: grid;
   width: 100%;
-  padding-left: 10rem;
   grid-template-columns: auto;
   grid-template-rows: auto;
-
 }
 
 .product-column-two {
-	display: grid;
-	width: 100%;
-
-	grid-template-columns: auto;
-	grid-template-rows: auto;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 .product-column-three {
-	display: grid;
-	width: 100%;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: 25% 5% 40% 5% 25%;
+}
+
+.product-column-three-price {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto;
+}
+
+.product-column-three-purchaseselection {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 .product-selection-image {
   display: grid;
-	width: 100%;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 .product-selection-text {
   display: grid;
-	width: 100%;
+  width: 100%;
   padding-top: 0.5rem;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
-	color: #FC6E20;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  color: #FC6E20;
 }
 
 .product-body {
   display: grid;
-	width: 100%;
-	  padding-right: 10rem;
-
-	grid-template-columns: auto;
-	grid-template-rows: 20% 80%;
+  width: 100%;
+  padding-right: 10rem;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 80%;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////// Contact Page Template ///////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
 .grid-contents-contactuspage {
-	display: grid;
+  display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
 
 .contactus-column-one {
-	display: grid;
-	width: 100%;
-	grid-template-columns: auto;
-
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
 }
 
 .contactus-column-two {
-	display: grid;
-	width: 100%;
-	grid-template-columns: auto;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+}
 
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////// Media Queries ///////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media all and (min-width: 320px) {
+    {
+    max-width: 320px;
+  }
+}
+
+@media all and (min-width: 360px) {
+    {
+    max-width: 360px;
+  }
+}
+
+@media all and (min-width: 375px) {
+    {
+    max-width: 375px;
+  }
+}
+
+@media all and (min-width: 411px) {
+    {
+    max-width: 411px;
+  }
+}
+
+@media all and (min-width: 414px) {
+    {
+    max-width: 414px;
+  }
+}
+
+@media all and (min-width: 480px) {
+    {
+    max-width: 480px;
+  }
+}
+
+@media all and (min-width: 600px) {
+    {
+    max-width: 600px;
+  }
+}
+
+@media all and (min-width: 720px) {
+    {
+    max-width: 720px;
+  }
+}
+
+@media all and (min-width: 768px) {
+    {
+    max-width: 768px;
+  }
+}
+
+@media all and (min-width: 800px) {
+    {
+    max-width: 800px;
+  }
+}
+
+@media all and (min-width: 880px) {
+    {
+    max-width: 880px;
+  }
+}
+
+@media all and (min-width: 960px) {
+    {
+    max-width: 960px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+    {
+    max-width: 1024px;
+  }
+}
+
+@media all and (min-width: 1150px) {
+    {
+    max-width: 1150px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+    {
+    max-width: 1280px;
+  }
+}
+
+@media all and (min-width: 1366px) {
+  .grid-main .grid-navbar .grid-contents .grid-footer {
+    max-width: 1366px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .grid-main .grid-navbar .grid-contents .grid-footer {
+    max-width: 1440px;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(252, 110, 32);
+  }
+
+  h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(252, 110, 32);
+  }
+
+  .hero-column-one h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .grid-row2 p, .grid-row4 p, .grid-row6 p {
+    font-size: 2rem;
+  }
+
+  .footermisc {
+    font-size: 0.8rem;
+  }
+
+  .footername {
+    font-size: 1.5rem;
+  }
+
+  /* About Us Page */
+  .about-column-one h1 {
+    font-size: 3rem;
+  }
+
+  .about-column-one h2 {
+    font-size: 2rem;
+  }
+
+  /* Contact Us Page */
+  .contactus-column-one h2 {
+    font-size: 3rem;
+    color: black;
+  }
 }

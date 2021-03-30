@@ -101,19 +101,28 @@ img {
 .grid-footer {
   display: grid;
   width: 100%;
-  height: 10rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 70% 30%;
   grid-template-rows: auto;
 }
 
-.footermisc {
-  float: right;
-  grid-column: 3/4;
+.footer-column-one {
+  display: grid;
+  width: 100%;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  grid-template-columns: auto;
+  grid-template-rows: 50% 50%;
 }
 
-footer {
-  /* padding-top: 15rem; */
+.footer-column-two {
+  display: grid;
+  width: 100%;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
 }
+
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*////////////////////////////////////// Selection Page Template //////////////////////////////////////*/
@@ -279,9 +288,17 @@ footer {
   grid-template-rows: auto;
 }
 
+.product-column-three-info {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 .product-column-three-purchaseselection {
   display: grid;
   width: 100%;
+  height: 5vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
@@ -296,10 +313,8 @@ footer {
 .product-selection-text {
   display: grid;
   width: 100%;
-  padding-top: 0.5rem;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  color: #FC6E20;
 }
 
 .product-body {
@@ -462,16 +477,14 @@ footer {
     font-weight: bold;
   }
 
+  .pos1 {
+    margin-top: 30em;
+  	margin-right: 20em;
+    width: 10em;
+  }
+
   .grid-row2 p, .grid-row4 p, .grid-row6 p {
     font-size: 2rem;
-  }
-
-  .footermisc {
-    font-size: 0.8rem;
-  }
-
-  .footername {
-    font-size: 1.5rem;
   }
 
   /* About Us Page */

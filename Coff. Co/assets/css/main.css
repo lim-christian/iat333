@@ -32,6 +32,12 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 	color: #88A381;
 }
 
+.white {
+	color: white;
+}
+
+
+
 .italics {
 	font-family: "Calibre LightItalic"
 }
@@ -140,7 +146,6 @@ width: auto;
 /* BUTTON CLASS */
 .button-wrapper {
   display: block;
-  text-align: center;
 }
 
 .ctabutton1 {
@@ -148,12 +153,9 @@ width: auto;
   border-radius: 0.2em;
   text-decoration: none;
   display: inline-block;
-  padding: 1em 1em;
-  width: 10em;
-	margin-top: 30em;
-	margin-right: 20em;
+  padding: 1rem;
+	text-align: center;
 	/* color: white; */
-
 }
 
 .ctabutton1 {
@@ -166,6 +168,45 @@ width: auto;
 	/* color: white; */
 }
 
+.ctabutton2 {
+  border: none;
+  border-radius: 0.2em;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em 1em;
+  width: 10em;
+	margin-top: 2em;
+	margin-right: 60em;
+	/* color: white; */
+
+}
+
+.ctabutton2 {
+	background-color: #FC6E20;
+  color: white;
+}
+
+.cta-button2: hover {
+  background-color: #777;
+	/* color: white; */
+}
+
+.ctabutton3 {
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+	padding: 14px 28px;
+}
+
+.test {
+	border-color: #88A381;
+	color: green;
+}
+
+.test: hover {
+	background-color: #88A381;
+	color: white;
+}
 
 /* END OF BUTTON */
 
@@ -194,31 +235,6 @@ width: auto;
 .merchimg1, .merchimg2 {
 		width: 80%;
 }
-
-
-.ctabutton2 {
-  border: none;
-  border-radius: 0.2em;
-  text-decoration: none;
-  display: inline-block;
-  padding: 1em 1em;
-  width: 10em;
-	margin-top: 2em;
-	margin-right: 60em;
-	/* color: white; */
-
-}
-
-.ctabutton2 {
-	background-color: #FC6E20;
-  color: white;
-}
-
-.cta-button2: hover {
-  background-color: #777;
-	/* color: white; */
-}
-
 
 .grid-footer{
 	display: inline-block;

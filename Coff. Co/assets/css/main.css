@@ -36,10 +36,16 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 	color: white;
 }
 
-
-
 .italics {
 	font-family: "Calibre LightItalic"
+}
+
+.subheader {
+  font-family: "Circular STD Book"
+}
+
+.caption {
+  font-family: "Calibre Thin"
 }
 
 .hctp1 {
@@ -192,14 +198,14 @@ width: auto;
 }
 
 .ctabutton3 {
-	border: 2px solid black;
+	border: 1px solid black;
 	background-color: white;
 	color: black;
 	padding: 14px 28px;
 }
 
 .test {
-	border-color: #88A381;
+	border-color: black;
 	color: green;
 }
 
@@ -244,19 +250,10 @@ width: auto;
 	width: 100%;
 }
 
-.footername {
-	color: #FC6E20;
-	margin-top: 2em;
-	padding: 0.5em;
-}
-
-
-
-.footermisc {
-	color: #ffffff;
-	text-decoration: none;
-	margin-top: 1.5em;
-	padding: 1em;
+.footer-stationary {
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
 

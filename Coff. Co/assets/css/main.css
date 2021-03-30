@@ -337,6 +337,7 @@ width: auto;
 	border: none;
 	border-radius: 0.2em;
 	text-decoration: none;
+  text-align: center;
 	display: inline-block;
 	padding: 1em 1em;
 	width: 10em;
@@ -537,34 +538,3 @@ ul li {
 /* ------------------------------------------------------------------------------------- */
 /* Accordion */
 
-.accordion label {
-  color: #fff;
-  cursor: pointer;
-  font-weight: normal;
-  padding: 10px;
-  background: #b0100c;
-
-}
-
-.accordion label:hover,
-.accordion label:focus {
-  background: #252525;
-}
-
-.accordion .handle label:before {
-  font-family: FontAwesome;
-  content: "\f107";
-  display: inline-block;
-  margin-right: 10px;
-  font-size: 1em;
-  line-height: 1.556em;
-  vertical-align: middle;
-  transition: 0.4s;
-
-}
-
-.accordion > input[name="collapse"]:checked ~ .handle label:before {
-    transform: rotate(180deg);
-    transform-origin: center;
-    transition: 0.4s;
-}

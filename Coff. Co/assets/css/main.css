@@ -355,7 +355,7 @@ div.vertical-line {
         if this fits better with your design */
 }
 /* ------------------------------------------------------------------------------------- */
-/* Arrow Animation */
+/* Arrow Animation taken from this site https://freefrontend.com/css-arrows/*/
 
 .arrow {
   display: flex;

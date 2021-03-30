@@ -356,6 +356,112 @@ img {
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////// Checkout Template /////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.grid-contents-checkoutpage {
+  display: grid;
+  width: 100%;
+  padding-top: 5rem;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 10% 5% 25% 25% 5%;
+}
+
+.grid-contents-hr {
+  display: grid;
+  padding-left: 30rem;
+  width: 80%;
+}
+
+.grid-contents-checkoutpage-row1 {
+  display: grid;
+  width: 100%;
+  padding-left: 10rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.grid-contents-checkoutpage-row2 {
+  display: grid;
+  width: 80%;
+  padding-left: 30rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.grid-contents-checkoutpage-row3 {
+  display: grid;
+  width: 80%;
+  height: 50%;
+  padding-left: 13rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.grid-contents-checkoutpage-row4 {
+  display: grid;
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 35rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.grid-contents-checkoutpage-column4 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.grid-contents-checkoutpage-column4-one {
+  display: grid;
+  width: 55%;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+}
+
+.grid-contents-checkoutpage-column4-two {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-contents-checkoutpage-row5 {
+  display: grid;
+  width: 20%;
+  padding-top: 2rem;
+  padding-left: 77.5rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.grid-contents-checkoutpage-next {
+  display: grid;
+  width: 100%;
+  padding-top: 5rem;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 15% 65%;
+}
+
+.grid-contents-checkoutpage-next-comfirmation {
+  display: grid;
+  width: 100%;
+  padding-top: 1rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.grid-contents-checkoutpage-beforeyougo {
+  display: grid;
+  width: 100%;
+  padding-top: 5rem;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////// Media Queries ///////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media all and (min-width: 320px) {
@@ -523,6 +629,25 @@ img {
 
   .caption p {
     font-size: 0.7rem;
+  }
+
+  /* Checkout */
+  .grid-contents-checkoutpage-row1 {
+    font-size: 3rem;
+  }
+
+  .grid-contents-checkoutpage-row2 {
+    font-family: "Calibre Black";
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .grid-contents-checkoutpage-row3 {
+    text-align: center;
+  }
+
+  .grid-contents-checkoutpage-next-comfirmation p {
+    font-size: 1.5rem;
   }
 
   /* Contact Us Page */

@@ -126,8 +126,6 @@ width: auto;
 }
 
 
-
-
 .hero-column-one h1 {
 	margin-top: 8em;
 	margin-left: 4em;
@@ -186,7 +184,6 @@ width: auto;
 	margin-left: 20em;
 	/* color: white;
    */
-
 }
 
 .ctabutton2 {
@@ -214,6 +211,45 @@ width: auto;
 .test: hover {
 	background-color: #88A381;
 	color: white;
+}
+
+.ctabutton4 {
+  border: 1px solid black;
+  border-radius: 0.2em;
+  text-decoration: none;
+  display: inline-block;
+  width: 10em;
+  text-align: center;
+}
+
+.ctabutton4 {
+	background-color: white;
+  color: #FC6E20;
+}
+
+.cta-button4: hover {
+  background-color: #777;
+}
+
+.ctabutton5 {
+  border: none;
+  border-radius: 0.2em;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em 1em;
+  width: 10em;
+	/* color: white;
+   */
+}
+
+.ctabutton5 {
+	background-color: #FC6E20;
+  color: white;
+}
+
+.cta-button5: hover {
+  background-color: #777;
+	/* color: white; */
 }
 
 /* END OF BUTTON */

@@ -311,6 +311,14 @@ img {
   grid-template-rows: auto;
 }
 
+.product-column-three-purchaseselectionsingle {
+  display: grid;
+  width: 55%;
+  height: 5vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
 .product-selection-image {
   display: grid;
   width: 100%;

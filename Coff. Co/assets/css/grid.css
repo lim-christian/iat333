@@ -464,103 +464,26 @@ img {
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////// Media Queries ///////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-@media all and (min-width: 320px) {
-    {
-    max-width: 320px;
-  }
-}
 
-@media all and (min-width: 360px) {
-    {
-    max-width: 360px;
-  }
-}
-
-@media all and (min-width: 375px) {
-    {
-    max-width: 375px;
-  }
-}
-
-@media all and (min-width: 411px) {
-    {
-    max-width: 411px;
-  }
-}
-
-@media all and (min-width: 414px) {
-    {
-    max-width: 414px;
-  }
-}
-
-@media all and (min-width: 480px) {
-    {
+/* Mobile */
+@media all and (min-width: 480px) { .grid-main .grid-navbar .grid-contents .grid-footer {
     max-width: 480px;
   }
 }
 
-@media all and (min-width: 600px) {
-    {
-    max-width: 600px;
-  }
-}
-
-@media all and (min-width: 720px) {
-    {
-    max-width: 720px;
-  }
-}
-
-@media all and (min-width: 768px) {
-    {
+/* Tablet */
+@media all and (min-width: 768px) { .grid-main .grid-navbar .grid-contents .grid-footer {
     max-width: 768px;
   }
 }
 
-@media all and (min-width: 800px) {
-    {
-    max-width: 800px;
-  }
-}
-
-@media all and (min-width: 880px) {
-    {
-    max-width: 880px;
-  }
-}
-
-@media all and (min-width: 960px) {
-    {
-    max-width: 960px;
-  }
-}
-
-@media all and (min-width: 1024px) {
-    {
+/* Laptop */
+@media all and (min-width: 1024px) { .grid-main .grid-navbar .grid-contents .grid-footer {
     max-width: 1024px;
   }
 }
 
-@media all and (min-width: 1150px) {
-    {
-    max-width: 1150px;
-  }
-}
-
-@media all and (min-width: 1280px) {
-    {
-    max-width: 1280px;
-  }
-
-
-}
-
-@media all and (min-width: 1366px) { .grid-main .grid-navbar .grid-contents .grid-footer {
-    max-width: 1366px;
-  }
-}
-
+/* Full Width */
 @media all and (min-width: 1440px) { .grid-main .grid-navbar .grid-contents .grid-footer {
     max-width: 1440px;
   }
